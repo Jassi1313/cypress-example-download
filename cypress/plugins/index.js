@@ -24,6 +24,6 @@ module.exports = (on, config) => {
   // `config` is the resolved Cypress config
 
   on("task", {
-		"downloadFile": { downloadFile }
+		downloadFile
   })
 }
